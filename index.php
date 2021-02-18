@@ -7,6 +7,7 @@
   </head>
   <body>
     <header>
+      <br>
       <h1>London the Game</h1>
     </header>
     <p>
@@ -24,7 +25,7 @@
       aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>
       aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>
     </p>
-    <div class="container">
+    <div>
       <br><br><br>
       <a class="start" href="game/character"><strong>START</strong></a>
       <br><br><br>

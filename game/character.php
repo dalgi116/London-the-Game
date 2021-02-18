@@ -8,9 +8,9 @@
   </head>
   <body>
     <header>
-      <div style="text-align:left;margin:10px">
-        <a class="back" href="../"><strong>BACK</strong></a>
-      </div>
+      <a class="btn" style="float:left" href="../"><strong>BACK</strong></a>
+      <a class="btn" style="float:right" href="create"><strong>CREATE A CHARACTER</strong></a>
+      <br>
       <h1>Choose a character</h1>
     </header>
 
