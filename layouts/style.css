@@ -1,0 +1,53 @@
+h1 {
+  color: green;
+  font-size: 400%;
+  font-family: Georgia;
+}
+p {
+  font-size: 150%;
+  font-family: Georgia;
+  margin-left: 50px;
+}
+header {
+  padding: 20px;
+  text-align: center;
+}
+footer {
+  padding: 20px;
+  background-color: lightgrey;
+  text-align:center;
+}
+img {
+  padding: 50px;
+  float: right;
+  margin-right: 50px;
+}
+.start:link, .start:visited {
+  text-align: center;
+  font-size: 200%;
+  font-family: Georgia;
+  color: black;
+  padding: 25px 15px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #00b300;
+}
+.start:hover, .start:active {
+  background-color: #00cc00;
+}
+.back:link, .back:visited {
+  text-align: center;
+  font-size: 150%;
+  font-family: Georgia;
+  color: black;
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #00b300;
+}
+.back:hover, .back:active {
+  background-color: #00cc00;
+}
+div {
+  text-align: center;
+}
