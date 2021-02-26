@@ -1,19 +1,19 @@
 h1 {
-  color: green;
-  font-size: 400%;
+  color: #00b300;
+  font-size: 300%;
   font-family: Georgia;
 }
 p {
   font-size: 150%;
   font-family: Georgia;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 header {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 }
 footer {
-  padding: 20px;
+  padding: 10px;
   background-color: lightgrey;
   text-align:center;
 }
@@ -45,9 +45,6 @@ img {
 }
 .btn:hover, .btn:active {
   background-color: #00cc00;
-}
-div {
-  text-align: center;
 }
 /* HIDE RADIO */
 [type=radio] {

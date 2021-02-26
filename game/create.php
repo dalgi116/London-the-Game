@@ -14,7 +14,7 @@
 
 
     <form action="create" method="post">
-      <div style="float:left;text-align:left">
+      <div style="float:left;text-align:left;width:600px;margin:15px">
         <p>
           <strong>Name:</strong><br>
           <input style="font-size:80%" type="text" name="name" placeholder="What's my name?"><br>
@@ -54,10 +54,6 @@
             <img style="float:none;height:80px;width:80px;" src="../images/fire.gif" alt="fire">
           </label>
           <label>
-            <input type="radio" name="tribe" value="water">
-            <img style="float:none;height:80px;width:80px;" src="../images/water.gif" alt="water">
-          </label>
-          <label>
             <input type="radio" name="tribe" value="ground">
             <img style="float:none;height:80px;width:80px;" src="../images/ground.gif" alt="ground">
           </label>
@@ -65,13 +61,27 @@
             <input type="radio" name="tribe" value="wind">
             <img style="float:none;height:80px;width:80px;" src="../images/wind.gif" alt="wind">
           </label>
+          <label>
+            <input type="radio" name="tribe" value="water">
+            <img style="float:none;height:80px;width:80px;" src="../images/water.gif" alt="water">
+          </label>
         </p>
       </div>
-      <div style="float:right;text-align:left">
-        <img src="../images/fire.gif" style="text-align: center;height:500px" alt="fire">
+      <div style="float:right;text-align:left;width:600px;margin:15px">
+        <p>
+          <strong>Power:</strong>
+        </p>
+        <img src="../images/powerChart.gif" style="width:600px" alt="powerChart">
+        <div style="text-align:center">
+          <p>
+            <img src="../images/weaknessChart.gif" style="float:right;height:200px" alt="weaknessChart">
+            <strong>Strong against:</strong>
+          </p>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
       </div>
       <div>
-        <h2>Hello world</h2>
+        <h2>Default style is '00000'.</h2>
         <?php
         if (isset($_POST['tribe'])) {
           echo $_POST['name']."<br>";
@@ -81,7 +91,7 @@
         ?>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-        <br><br>
+        <br><br><br><br><br>
           <button type="submit" style="text-align: center;font-size: 200%;font-family: Georgia;color: black;padding: 25px 15px;display: inline-block;text-decoration: none;background-color: #00b300;" name="start"><strong>PLAY</strong></button>
       </div>
     </form>
@@ -89,9 +99,8 @@
 
 
 
-
     <footer>
-      <p style="text-align:center;">made by <b>Daniel Franc</b>[<a target="_blank" style="text-decoration: none;" href="https://github.com/dalgi116"><i>dalgi116</i></a>]</p>
+      <p style="text-align:center;margin:15px">made by <b>Daniel Franc</b>[<a target="_blank" style="text-decoration: none;" href="https://github.com/dalgi116"><i>dalgi116</i></a>]</p>
     </footer>
   </body>
 </html>
